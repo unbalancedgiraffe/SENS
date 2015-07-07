@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MKL46Z256xxx4</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M0+</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>32k</SRAMsize>
+    <FLASHsize>256k</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\</Path>
+      <Path>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\iofiles\</Path>
+      <Path>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\</Path>
+      <Path>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\</Path>
+      <Path>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Project_Settings\Startup_Code\</Path>
+      <Path>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\FTM.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\I2CFreedom.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\LED_GREEN.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\LED_RED.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\SegLCD.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\UART.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\Vectors.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Project_Settings\Startup_Code\startup.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\Events.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\LCD.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\approximations.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\drivers.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\fusion.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\magnetic.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\main.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\matrix.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\orientation.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\tasks.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\FTM.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\I2CFreedom.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\LED_GREEN.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\LED_RED.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\PE_Const.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\PE_Error.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\PE_LDD.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\SegLCD.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\UART.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\Events.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\LCD.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\approximations.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\build.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\drivers.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\fusion.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\include_all.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\magnetic.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\matrix.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\orientation.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\tasks.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\iofiles\MKL46Z4.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\ADC_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\CMP_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\COP_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\DAC_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\DMAMUX_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\DMA_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\FTFA_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\GPIO_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\I2C_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\LCD_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\LPTMR_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\MCG_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\MCM_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\OSC_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\PDD_Types.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\PIT_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\PORT_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\RTC_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\SAI_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\SIM_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\SPI_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\SysTick_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\TPM_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\TSI_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\UART0_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\UART_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\USB_PDD.h</PathName>
+    </GeneratedHs>
+  </FILES>
+  <OPTIONS>
+  </OPTIONS>
+</export>
