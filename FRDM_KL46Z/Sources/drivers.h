@@ -33,12 +33,12 @@
 #define I2C_SENT_FLAG    			0x01
 #define I2C_RCVD_FLAG     			0x02
 
-// globals defined in FSL_utils.c
+// globals defined in drivers.c
 extern uint8 sUARTOutputBuf[UART_OUTPUT_BUFFER_SIZE];
 extern uint8 sUARTInputBuf[UART_INPUT_BUFFER_SIZE];
 extern uint8 iCommand[4];
 
-// functions defined in FSL_utils.c
+// functions defined in drivers.c
 int8 MAG3110_Freedom_Init_40Hz(LDD_TDeviceData *DeviceDataPtr, struct MagSensor *pthisMag);
 int8 MMA8451_Freedom_Init_50Hz(LDD_TDeviceData *DeviceDataPtr, struct AccelSensor *pthisAccel);
 void MAG3110_Freedom_ReadData(LDD_TDeviceData *DeviceDataPtr, struct MagSensor *pthisMag);

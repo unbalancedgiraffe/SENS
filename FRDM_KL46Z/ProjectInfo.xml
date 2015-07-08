@@ -35,66 +35,66 @@
     <FLASHsize>256k</FLASHsize>
   </PROCESSOR>
   <PATHS>
-    <LinkerCommandFile>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <LinkerCommandFile>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
     <IncludePaths>
       <Path>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\</Path>
       <Path>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\iofiles\</Path>
-      <Path>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\</Path>
-      <Path>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\</Path>
+      <Path>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\</Path>
+      <Path>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\</Path>
     </IncludePaths>
     <SourceCodePaths>
-      <Path>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\</Path>
-      <Path>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Project_Settings\Startup_Code\</Path>
-      <Path>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\</Path>
+      <Path>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\</Path>
+      <Path>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Project_Settings\Startup_Code\</Path>
+      <Path>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\</Path>
     </SourceCodePaths>
   </PATHS>
   <FILES>
     <GeneratedCs>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\Cpu.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\FTM.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\I2CFreedom.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\LED_GREEN.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\LED_RED.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\PE_LDD.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\SegLCD.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\UART.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\Vectors.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Project_Settings\Startup_Code\startup.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\Events.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\LCD.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\approximations.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\drivers.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\fusion.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\magnetic.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\main.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\matrix.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\orientation.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\tasks.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\FTM.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\I2CFreedom.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\LED_GREEN.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\LED_RED.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\SegLCD.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\UART.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\Vectors.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Project_Settings\Startup_Code\startup.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\Events.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\LCD.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\approximations.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\drivers.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\fusion.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\magnetic.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\main.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\matrix.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\orientation.c</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\tasks.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\Cpu.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\FTM.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\I2CFreedom.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\IO_Map.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\LED_GREEN.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\LED_RED.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\PE_Const.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\PE_Error.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\PE_LDD.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\PE_Types.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\SegLCD.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Generated_Code\UART.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\Events.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\LCD.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\approximations.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\build.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\drivers.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\fusion.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\include_all.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\magnetic.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\matrix.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\orientation.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Sources\tasks.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\FTM.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\I2CFreedom.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\LED_GREEN.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\LED_RED.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\PE_Const.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\PE_Error.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\PE_LDD.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\SegLCD.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Generated_Code\UART.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\Events.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\LCD.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\approximations.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\build.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\drivers.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\fusion.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\include_all.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\magnetic.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\matrix.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\orientation.h</PathName>
+      <PathName>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Sources\tasks.h</PathName>
       <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\iofiles\MKL46Z4.h</PathName>
       <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\ADC_PDD.h</PathName>
       <PathName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\CMP_PDD.h</PathName>

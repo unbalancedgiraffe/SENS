@@ -61,7 +61,7 @@ all: FRDM_KL46Z.elf secondary-outputs
 FRDM_KL46Z.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C++ Linker'
-	arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -T "C:/Users/Tingkai/Desktop/Freescale/KDS/FRDM_KL46Z/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Tingkai/Desktop/Freescale/KDS/FRDM_KL46Z/Project_Settings/Linker_Files" -Wl,-Map,"FRDM_KL46Z.map" -nanolibc -o "FRDM_KL46Z.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -T "C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Project_Settings/Linker_Files" -Wl,-Map,"FRDM_KL46Z.map" -nanolibc -o "FRDM_KL46Z.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

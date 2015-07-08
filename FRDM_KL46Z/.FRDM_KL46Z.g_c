@@ -2,7 +2,7 @@
 <GenerationInfo_G_C>
   <Options>
     <ProjectName>FRDM_KL46Z</ProjectName>
-    <ProjectDirectory>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\</ProjectDirectory>
+    <ProjectDirectory>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\</ProjectDirectory>
     <ProjectMainModuleName>main</ProjectMainModuleName>
     <DestEventsDirectory>Sources\</DestEventsDirectory>
     <DestDriversSubDirectory>..\Generated_Code\</DestDriversSubDirectory>
@@ -19,16 +19,16 @@
         <Line>PE_Const</Line>
         <Line>IO_Map</Line>
       </GenSharedModules>
-      <ShrdHeaderAge0>1188198709</ShrdHeaderAge0>
+      <ShrdHeaderAge0>1189628572</ShrdHeaderAge0>
       <ShrdCodeAge0>-1</ShrdCodeAge0>
       <ShrdAsemblAge0>-1</ShrdAsemblAge0>
-      <ShrdHeaderAge1>1188198709</ShrdHeaderAge1>
+      <ShrdHeaderAge1>1189628572</ShrdHeaderAge1>
       <ShrdCodeAge1>-1</ShrdCodeAge1>
       <ShrdAsemblAge1>-1</ShrdAsemblAge1>
-      <ShrdHeaderAge2>1188198709</ShrdHeaderAge2>
+      <ShrdHeaderAge2>1189628572</ShrdHeaderAge2>
       <ShrdCodeAge2>-1</ShrdCodeAge2>
       <ShrdAsemblAge2>-1</ShrdAsemblAge2>
-      <ShrdHeaderAge3>1188198709</ShrdHeaderAge3>
+      <ShrdHeaderAge3>1189628572</ShrdHeaderAge3>
       <ShrdCodeAge3>-1</ShrdCodeAge3>
       <ShrdAsemblAge3>-1</ShrdAsemblAge3>
       <GenExtraFiles lines_count="15">
@@ -50,10 +50,10 @@
       </GenExtraFiles>
       <GenExtraFileSrcDir13>lib\Kinetis\startup\</GenExtraFileSrcDir13>
       <GenExtraFileSrcDir9>Repositories\lib\doxygen\</GenExtraFileSrcDir9>
-      <XtraAge10>1188198709</XtraAge10>
-      <XtraAge11>1188198709</XtraAge11>
-      <XtraAge13>1158246566</XtraAge13>
-      <XtraAge14>1188198709</XtraAge14>
+      <XtraAge10>1189628572</XtraAge10>
+      <XtraAge11>1189628572</XtraAge11>
+      <XtraAge13>1189628572</XtraAge13>
+      <XtraAge14>1189628572</XtraAge14>
       <GenExtraFileType14>4</GenExtraFileType14>
       <GenExtraFileType13>5</GenExtraFileType13>
       <GenExtraFileType12>4</GenExtraFileType12>
@@ -144,8 +144,8 @@
     <GenComponentVersion>01.002</GenComponentVersion>
     <GenDriverVersion>01.04</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1188198709</HeaderAge>
-    <CodeAge>1188198709</CodeAge>
+    <HeaderAge>1189628572</HeaderAge>
+    <CodeAge>1189628572</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>11</GenNumMethods>
     <SetClockConfiguration>false</SetClockConfiguration>
@@ -214,34 +214,34 @@
     <ExtraFile5>Generated_Code\PE_LDD.h</ExtraFile5>
     <ExtraFile6>Project_Settings\Linker_Files\ProcessorExpert.ld</ExtraFile6>
     <ExtraFile7>Project_Settings\Startup_Code\startup.c</ExtraFile7>
-    <ExtraFile8>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\USB_PDD.h</ExtraFile8>
-    <ExtraFile9>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\UART_PDD.h</ExtraFile9>
-    <ExtraFile10>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\UART0_PDD.h</ExtraFile10>
-    <ExtraFile11>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\TSI_PDD.h</ExtraFile11>
-    <ExtraFile12>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\TPM_PDD.h</ExtraFile12>
-    <ExtraFile13>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\SysTick_PDD.h</ExtraFile13>
-    <ExtraFile14>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\SPI_PDD.h</ExtraFile14>
-    <ExtraFile15>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\SIM_PDD.h</ExtraFile15>
-    <ExtraFile16>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\SAI_PDD.h</ExtraFile16>
-    <ExtraFile17>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\RTC_PDD.h</ExtraFile17>
-    <ExtraFile18>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\PORT_PDD.h</ExtraFile18>
-    <ExtraFile19>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\PIT_PDD.h</ExtraFile19>
-    <ExtraFile20>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\OSC_PDD.h</ExtraFile20>
-    <ExtraFile21>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\MCM_PDD.h</ExtraFile21>
-    <ExtraFile22>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\MCG_PDD.h</ExtraFile22>
-    <ExtraFile23>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\LPTMR_PDD.h</ExtraFile23>
-    <ExtraFile24>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\LCD_PDD.h</ExtraFile24>
-    <ExtraFile25>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\I2C_PDD.h</ExtraFile25>
-    <ExtraFile26>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\GPIO_PDD.h</ExtraFile26>
-    <ExtraFile27>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\FTFA_PDD.h</ExtraFile27>
-    <ExtraFile28>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\DMA_PDD.h</ExtraFile28>
-    <ExtraFile29>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\DMAMUX_PDD.h</ExtraFile29>
-    <ExtraFile30>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\DAC_PDD.h</ExtraFile30>
-    <ExtraFile31>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\COP_PDD.h</ExtraFile31>
-    <ExtraFile32>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\CMP_PDD.h</ExtraFile32>
-    <ExtraFile33>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\ADC_PDD.h</ExtraFile33>
-    <ExtraFile34>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\PDD\PDD_Types.h</ExtraFile34>
-    <ExtraFile35>C:\Users\Tingkai\Desktop\Freescale\KDS\FRDM_KL46Z\Static_Code\IO_Map\MKL46Z4.h</ExtraFile35>
+    <ExtraFile8>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\USB_PDD.h</ExtraFile8>
+    <ExtraFile9>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\UART_PDD.h</ExtraFile9>
+    <ExtraFile10>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\UART0_PDD.h</ExtraFile10>
+    <ExtraFile11>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\TSI_PDD.h</ExtraFile11>
+    <ExtraFile12>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\TPM_PDD.h</ExtraFile12>
+    <ExtraFile13>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\SysTick_PDD.h</ExtraFile13>
+    <ExtraFile14>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\SPI_PDD.h</ExtraFile14>
+    <ExtraFile15>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\SIM_PDD.h</ExtraFile15>
+    <ExtraFile16>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\SAI_PDD.h</ExtraFile16>
+    <ExtraFile17>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\RTC_PDD.h</ExtraFile17>
+    <ExtraFile18>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\PORT_PDD.h</ExtraFile18>
+    <ExtraFile19>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\PIT_PDD.h</ExtraFile19>
+    <ExtraFile20>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\OSC_PDD.h</ExtraFile20>
+    <ExtraFile21>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\MCM_PDD.h</ExtraFile21>
+    <ExtraFile22>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\MCG_PDD.h</ExtraFile22>
+    <ExtraFile23>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\LPTMR_PDD.h</ExtraFile23>
+    <ExtraFile24>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\LCD_PDD.h</ExtraFile24>
+    <ExtraFile25>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\I2C_PDD.h</ExtraFile25>
+    <ExtraFile26>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\GPIO_PDD.h</ExtraFile26>
+    <ExtraFile27>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\FTFA_PDD.h</ExtraFile27>
+    <ExtraFile28>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\DMA_PDD.h</ExtraFile28>
+    <ExtraFile29>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\DMAMUX_PDD.h</ExtraFile29>
+    <ExtraFile30>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\DAC_PDD.h</ExtraFile30>
+    <ExtraFile31>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\COP_PDD.h</ExtraFile31>
+    <ExtraFile32>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\CMP_PDD.h</ExtraFile32>
+    <ExtraFile33>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\ADC_PDD.h</ExtraFile33>
+    <ExtraFile34>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\PDD\PDD_Types.h</ExtraFile34>
+    <ExtraFile35>C:\Users\Tingkai\Desktop\SENS\FRDM_KL46Z\Static_Code\IO_Map\MKL46Z4.h</ExtraFile35>
     <ExtraFile36>Generated_Code\Vectors.c</ExtraFile36>
   </CpuID_2>
   <ComponentID_6>
@@ -250,8 +250,8 @@
     <GenComponentVersion>01.033</GenComponentVersion>
     <GenDriverVersion>01.03</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1188198709</HeaderAge>
-    <CodeAge>1188198709</CodeAge>
+    <HeaderAge>1189628572</HeaderAge>
+    <CodeAge>1189628572</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>13</GenNumMethods>
     <Init>true</Init>
@@ -365,8 +365,8 @@
     <GenComponentVersion>01.033</GenComponentVersion>
     <GenDriverVersion>01.03</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1188198709</HeaderAge>
-    <CodeAge>1188198709</CodeAge>
+    <HeaderAge>1189628572</HeaderAge>
+    <CodeAge>1189628572</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>13</GenNumMethods>
     <Init>true</Init>
@@ -480,8 +480,8 @@
     <GenComponentVersion>01.164</GenComponentVersion>
     <GenDriverVersion>01.11</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1188198709</HeaderAge>
-    <CodeAge>1188198709</CodeAge>
+    <HeaderAge>1189628572</HeaderAge>
+    <CodeAge>1189628572</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>22</GenNumMethods>
     <Init>true</Init>
@@ -619,8 +619,8 @@
     <GenComponentVersion>01.188</GenComponentVersion>
     <GenDriverVersion>01.12</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1188198709</HeaderAge>
-    <CodeAge>1188198709</CodeAge>
+    <HeaderAge>1189628572</HeaderAge>
+    <CodeAge>1189628572</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>36</GenNumMethods>
     <Init>true</Init>
@@ -790,8 +790,8 @@
     <GenComponentVersion>01.016</GenComponentVersion>
     <GenDriverVersion>01.07</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1188198709</HeaderAge>
-    <CodeAge>1188198709</CodeAge>
+    <HeaderAge>1189628572</HeaderAge>
+    <CodeAge>1189628572</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>33</GenNumMethods>
     <Init>true</Init>
@@ -1024,8 +1024,8 @@
     <GenComponentVersion>01.017</GenComponentVersion>
     <GenDriverVersion>01.06</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1188198709</HeaderAge>
-    <CodeAge>1188198709</CodeAge>
+    <HeaderAge>1189628572</HeaderAge>
+    <CodeAge>1189628572</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>17</GenNumMethods>
     <Init>true</Init>
