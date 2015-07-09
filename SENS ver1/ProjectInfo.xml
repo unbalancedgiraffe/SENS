@@ -57,7 +57,6 @@
       <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Generated_Code\Vectors.c</PathName>
       <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Project_Settings\Startup_Code\startup.c</PathName>
       <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Sources\Events.c</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Sources\driver.c</PathName>
       <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Sources\main.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
@@ -70,8 +69,6 @@
       <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Generated_Code\PE_Types.h</PathName>
       <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Generated_Code\UART.h</PathName>
       <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Sources\Events.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Sources\build.h</PathName>
-      <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Sources\driver.h</PathName>
       <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Static_Code\IO_Map\MKL46Z4.h</PathName>
       <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Static_Code\PDD\ADC_PDD.h</PathName>
       <PathName>C:\Users\Tingkai\Desktop\SENS\SENS ver1\Static_Code\PDD\CMP_PDD.h</PathName>

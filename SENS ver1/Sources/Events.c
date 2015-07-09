@@ -36,26 +36,8 @@ extern "C" {
 extern bool I2C_RCVD_FLAG;
 extern bool I2C_SENT_FLAG;
 
-// I2C communications globals
-#define I2C_BUF_LEN           16
-uint8_t I2C_Buf[I2C_BUF_LEN];
-
-// Freedom FRDM-KL46Z board sensor I2C addresses
-#define MMA8451_FRDM_I2C_ADDR		0x1D
-
-// MMA8451 registers and constants
-#define MMA8451_STATUS					0x00
-#define MMA8451_OUT_X_MSB       	  	0x01
-#define MMA8451_WHO_AM_I      			0x0D
-#define MMA8451_XYZ_DATA_CFG     	  	0x0E
-#define MMA8451_CTRL_REG1        	 	0x2A
-#define MMA8451_CTRL_REG2         		0x2B
-#define MMA8451_WHO_AM_I_VALUE     		0x1A
-
-
 
 /* User includes (#include below this line is not maintained by Processor Expert) */
-#include "driver.h"
 
 /*
 ** ===================================================================

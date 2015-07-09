@@ -314,7 +314,7 @@ PE_DEBUGHALT();
         <boolgroup name="MASTER mode" v="Enabled">
           <group name="Initialization">
             <Address_mode v="7-bit addressing" />
-            <Target_slave_address_init v="30" />
+            <Target_slave_address_init v="29" />
           </group>
         </boolgroup>
         <boolgroup name="SLAVE mode" v="Disabled" />
@@ -329,12 +329,12 @@ PE_DEBUGHALT();
           <Input_Glitch_filter v="0" />
         </group>
         <Internal_frequency__multiplier_factor_ v="24 MHz" />
-        <Bits_0_2_of_Frequency_divider_register v="100" />
-        <Bits_3_5_of_Frequency_divider_register v="100" />
-        <SCL_frequency v="83.333 kHz" />
-        <SDA_Hold v="2.042 us" />
-        <SCL_start_Hold v="5.917 us" />
-        <SCL_stop_Hold v="6.042 us" />
+        <Bits_0_2_of_Frequency_divider_register v="010" />
+        <Bits_3_5_of_Frequency_divider_register v="010" />
+        <SCL_frequency v="375 kHz" />
+        <SDA_Hold v="0.542 us" />
+        <SCL_start_Hold v="1.083 us" />
+        <SCL_stop_Hold v="1.375 us" />
         <boolgroup name="Control acknowledge bit" v="Disabled" />
         <boolgroup name="Low timeout" v="Disabled" />
       </group>
@@ -381,11 +381,11 @@ PE_DEBUGHALT();
       <SlaveGetReceivedDataNum v="don&amp;apos;t generate code" />
       <SlaveUpdateReceiveBlockSize v="don&amp;apos;t generate code" />
       <SlaveCancelReceptionBlock v="don&amp;apos;t generate code" />
-      <SelectSlaveDevice v="don&amp;apos;t generate code" />
+      <SelectSlaveDevice v="generate code" />
       <SendAcknowledge v="don&amp;apos;t generate code" />
-      <GetError v="don&amp;apos;t generate code" />
-      <CheckBus v="don&amp;apos;t generate code" />
-      <GetStats v="don&amp;apos;t generate code" />
+      <GetError v="generate code" />
+      <CheckBus v="generate code" />
+      <GetStats v="generate code" />
       <ClearStats v="don&amp;apos;t generate code" />
       <Main v="don&amp;apos;t generate code" />
       <ConnectPin v="don&amp;apos;t generate code" />

@@ -1,0 +1,110 @@
+11:10:40 **** Incremental Build of configuration FLASH for project FRDM_KL46Z ****
+make all 
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+'Finished building: ../Sources/Events.c'
+' '
+'Building file: ../Sources/LCD.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Sources/LCD.d" -MT"Sources/LCD.o" -c -o "Sources/LCD.o" "../Sources/LCD.c"
+'Finished building: ../Sources/LCD.c'
+' '
+'Building file: ../Sources/approximations.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Sources/approximations.d" -MT"Sources/approximations.o" -c -o "Sources/approximations.o" "../Sources/approximations.c"
+'Finished building: ../Sources/approximations.c'
+' '
+'Building file: ../Sources/drivers.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Sources/drivers.d" -MT"Sources/drivers.o" -c -o "Sources/drivers.o" "../Sources/drivers.c"
+'Finished building: ../Sources/drivers.c'
+' '
+'Building file: ../Sources/fusion.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Sources/fusion.d" -MT"Sources/fusion.o" -c -o "Sources/fusion.o" "../Sources/fusion.c"
+'Finished building: ../Sources/fusion.c'
+' '
+'Building file: ../Sources/magnetic.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Sources/magnetic.d" -MT"Sources/magnetic.o" -c -o "Sources/magnetic.o" "../Sources/magnetic.c"
+'Finished building: ../Sources/magnetic.c'
+' '
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+'Finished building: ../Sources/main.c'
+' '
+'Building file: ../Sources/matrix.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Sources/matrix.d" -MT"Sources/matrix.o" -c -o "Sources/matrix.o" "../Sources/matrix.c"
+'Finished building: ../Sources/matrix.c'
+' '
+'Building file: ../Sources/orientation.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Sources/orientation.d" -MT"Sources/orientation.o" -c -o "Sources/orientation.o" "../Sources/orientation.c"
+'Finished building: ../Sources/orientation.c'
+' '
+'Building file: ../Sources/tasks.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Sources/tasks.d" -MT"Sources/tasks.o" -c -o "Sources/tasks.o" "../Sources/tasks.c"
+'Finished building: ../Sources/tasks.c'
+' '
+'Building file: ../Project_Settings/Startup_Code/startup.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/startup.d" -MT"Project_Settings/Startup_Code/startup.o" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.c"
+'Finished building: ../Project_Settings/Startup_Code/startup.c'
+' '
+'Building file: ../Generated_Code/Cpu.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+'Finished building: ../Generated_Code/Cpu.c'
+' '
+'Building file: ../Generated_Code/FTM.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/FTM.d" -MT"Generated_Code/FTM.o" -c -o "Generated_Code/FTM.o" "../Generated_Code/FTM.c"
+'Finished building: ../Generated_Code/FTM.c'
+' '
+'Building file: ../Generated_Code/I2CFreedom.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/I2CFreedom.d" -MT"Generated_Code/I2CFreedom.o" -c -o "Generated_Code/I2CFreedom.o" "../Generated_Code/I2CFreedom.c"
+'Finished building: ../Generated_Code/I2CFreedom.c'
+' '
+'Building file: ../Generated_Code/LED_GREEN.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/LED_GREEN.d" -MT"Generated_Code/LED_GREEN.o" -c -o "Generated_Code/LED_GREEN.o" "../Generated_Code/LED_GREEN.c"
+'Finished building: ../Generated_Code/LED_GREEN.c'
+' '
+'Building file: ../Generated_Code/LED_RED.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/LED_RED.d" -MT"Generated_Code/LED_RED.o" -c -o "Generated_Code/LED_RED.o" "../Generated_Code/LED_RED.c"
+'Finished building: ../Generated_Code/LED_RED.c'
+' '
+'Building file: ../Generated_Code/PE_LDD.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+'Finished building: ../Generated_Code/PE_LDD.c'
+' '
+'Building file: ../Generated_Code/SegLCD.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/SegLCD.d" -MT"Generated_Code/SegLCD.o" -c -o "Generated_Code/SegLCD.o" "../Generated_Code/SegLCD.c"
+'Finished building: ../Generated_Code/SegLCD.c'
+' '
+'Building file: ../Generated_Code/UART.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/UART.d" -MT"Generated_Code/UART.o" -c -o "Generated_Code/UART.o" "../Generated_Code/UART.c"
+'Finished building: ../Generated_Code/UART.c'
+' '
+'Building file: ../Generated_Code/Vectors.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Sources" -I"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+'Finished building: ../Generated_Code/Vectors.c'
+' '
+'Building target: FRDM_KL46Z.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -T "C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Tingkai/Desktop/SENS/FRDM_KL46Z/Project_Settings/Linker_Files" -Wl,-Map,"FRDM_KL46Z.map" -nanolibc -o "FRDM_KL46Z.elf"  ./Sources/Events.o ./Sources/LCD.o ./Sources/approximations.o ./Sources/drivers.o ./Sources/fusion.o ./Sources/magnetic.o ./Sources/main.o ./Sources/matrix.o ./Sources/orientation.o ./Sources/tasks.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/Cpu.o ./Generated_Code/FTM.o ./Generated_Code/I2CFreedom.o ./Generated_Code/LED_GREEN.o ./Generated_Code/LED_RED.o ./Generated_Code/PE_LDD.o ./Generated_Code/SegLCD.o ./Generated_Code/UART.o ./Generated_Code/Vectors.o   
+arm-none-eabi-g++: error: unrecognized command line option '-nanolibc'
+make: *** [FRDM_KL46Z.elf] Error 1
+
+11:10:46 Build Finished (took 5s.801ms)
+

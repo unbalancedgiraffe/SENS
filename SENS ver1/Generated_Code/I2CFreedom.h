@@ -7,7 +7,7 @@
 **     Version     : Component 01.016, Driver 01.07, CPU db: 3.00.000
 **     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-07-08, 11:48, # CodeGen: 3
+**     Date/Time   : 2015-07-09, 11:00, # CodeGen: 16
 **     Abstract    :
 **          This component encapsulates the internal I2C communication
 **          interface. The implementation of the interface is based
@@ -36,7 +36,7 @@
 **            MASTER mode                                  : Enabled
 **              Initialization                             : 
 **                Address mode                             : 7-bit addressing
-**                Target slave address init                : 0x1E
+**                Target slave address init                : 0x1D
 **            SLAVE mode                                   : Disabled
 **            Pins                                         : 
 **              SDA pin                                    : 
@@ -48,17 +48,17 @@
 **              High drive select                          : Disabled
 **              Input Glitch filter                        : 0
 **            Internal frequency (multiplier factor)       : 24 MHz
-**            Bits 0-2 of Frequency divider register       : 100
-**            Bits 3-5 of Frequency divider register       : 100
-**            SCL frequency                                : 83.333 kHz
-**            SDA Hold                                     : 2.042 us
-**            SCL start Hold                               : 5.917 us
-**            SCL stop Hold                                : 6.042 us
+**            Bits 0-2 of Frequency divider register       : 010
+**            Bits 3-5 of Frequency divider register       : 010
+**            SCL frequency                                : 375 kHz
+**            SDA Hold                                     : 0.542 us
+**            SCL start Hold                               : 1.083 us
+**            SCL stop Hold                                : 1.375 us
 **            Control acknowledge bit                      : Disabled
 **            Low timeout                                  : Disabled
 **          Initialization                                 : 
 **            Enabled in init code                         : yes
-**            Auto initialization                          : no
+**            Auto initialization                          : yes
 **            Event mask                                   : 
 **              OnMasterBlockSent                          : Enabled
 **              OnMasterBlockReceived                      : Enabled
@@ -87,6 +87,10 @@
 **         Init               - LDD_TDeviceData* I2CFreedom_Init(LDD_TUserData *UserDataPtr);
 **         MasterSendBlock    - LDD_TError I2CFreedom_MasterSendBlock(LDD_TDeviceData *DeviceDataPtr,...
 **         MasterReceiveBlock - LDD_TError I2CFreedom_MasterReceiveBlock(LDD_TDeviceData *DeviceDataPtr,...
+**         SelectSlaveDevice  - LDD_TError I2CFreedom_SelectSlaveDevice(LDD_TDeviceData *DeviceDataPtr,...
+**         GetError           - LDD_TError I2CFreedom_GetError(LDD_TDeviceData *DeviceDataPtr,...
+**         CheckBus           - LDD_TError I2CFreedom_CheckBus(LDD_TDeviceData *DeviceDataPtr,...
+**         GetStats           - LDD_I2C_TStats I2CFreedom_GetStats(LDD_TDeviceData *DeviceDataPtr);
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -167,10 +171,17 @@ extern "C" {
 /*! Peripheral base address of a device allocated by the component. This constant can be used directly in PDD macros. */
 #define I2CFreedom_PRPH_BASE_ADDRESS  0x40066000U
   
+/*! Device data structure pointer used when auto initialization property is enabled. This constant can be passed as a first parameter to all component's methods. */
+#define I2CFreedom_DeviceData  ((LDD_TDeviceData *)PE_LDD_GetDeviceStructure(PE_LDD_COMPONENT_I2CFreedom_ID))
+
 /* Methods configuration constants - generated for all enabled component's methods */
 #define I2CFreedom_Init_METHOD_ENABLED /*!< Init method of the component I2CFreedom is enabled (generated) */
 #define I2CFreedom_MasterSendBlock_METHOD_ENABLED /*!< MasterSendBlock method of the component I2CFreedom is enabled (generated) */
 #define I2CFreedom_MasterReceiveBlock_METHOD_ENABLED /*!< MasterReceiveBlock method of the component I2CFreedom is enabled (generated) */
+#define I2CFreedom_SelectSlaveDevice_METHOD_ENABLED /*!< SelectSlaveDevice method of the component I2CFreedom is enabled (generated) */
+#define I2CFreedom_GetError_METHOD_ENABLED /*!< GetError method of the component I2CFreedom is enabled (generated) */
+#define I2CFreedom_CheckBus_METHOD_ENABLED /*!< CheckBus method of the component I2CFreedom is enabled (generated) */
+#define I2CFreedom_GetStats_METHOD_ENABLED /*!< GetStats method of the component I2CFreedom is enabled (generated) */
 
 /* Events configuration constants - generated for all enabled component's events */
 #define I2CFreedom_OnMasterBlockSent_EVENT_ENABLED /*!< OnMasterBlockSent event of the component I2CFreedom is enabled (generated) */
@@ -300,6 +311,108 @@ LDD_TError I2CFreedom_MasterSendBlock(LDD_TDeviceData *DeviceDataPtr, LDD_TData 
 */
 /* ===================================================================*/
 LDD_TError I2CFreedom_MasterReceiveBlock(LDD_TDeviceData *DeviceDataPtr, LDD_TData *BufferPtr, LDD_I2C_TSize Size, LDD_I2C_TSendStop SendStop);
+
+/*
+** ===================================================================
+**     Method      :  I2CFreedom_SelectSlaveDevice (component I2C_LDD)
+*/
+/*!
+**     @brief
+**         This method selects a new slave for communication by its
+**         7-bit slave, 10-bit address or general call value. Any send
+**         or receive method directs to or from selected device, until
+**         a new slave device is selected by this method. This method
+**         is available for the MASTER mode.
+**     @param
+**         DeviceDataPtr   - Device data structure
+**                           pointer returned by <Init> method.
+**     @param
+**         AddrType        - Specify type of slave address
+**                           (7bit, 10bit or general call address), e.g.
+**                           LDD_I2C_ADDRTYPE_7BITS.
+**     @param
+**         Addr            - 7bit or 10bit slave address value.
+**     @return
+**                         - Error code, possible codes:
+**                           ERR_OK - OK
+**                           ERR_BUSY - The device is busy, wait until
+**                           the current operation is finished.
+**                           ERR_DISABLED -  The device is disabled.
+**                           ERR_SPEED - This device does not work in
+**                           the active clock configuration
+**                           ERR_PARAM_ADDRESS_TYPE -  Invalid address
+**                           type.
+**                           ERR_PARAM_ADDRESS -  Invalid address value.
+*/
+/* ===================================================================*/
+LDD_TError I2CFreedom_SelectSlaveDevice(LDD_TDeviceData *DeviceDataPtr, LDD_I2C_TAddrType AddrType, LDD_I2C_TAddr Addr);
+
+/*
+** ===================================================================
+**     Method      :  I2CFreedom_GetError (component I2C_LDD)
+*/
+/*!
+**     @brief
+**         Returns value of error mask, e.g. LDD_I2C_ARBIT_LOST.
+**     @param
+**         DeviceDataPtr   - Device data structure
+**                           pointer returned by <Init> method.
+**     @param
+**         ErrorMaskPtr    - Pointer to a variable
+**                           where errors value mask will be stored.
+**     @return
+**                         - Error code, possible codes:
+**                           ERR_OK - OK
+**                           ERR_DISABLED -  Device is disabled
+**                           ERR_SPEED - This device does not work in
+**                           the active clock configuration
+*/
+/* ===================================================================*/
+LDD_TError I2CFreedom_GetError(LDD_TDeviceData *DeviceDataPtr, LDD_I2C_TErrorMask *ErrorMaskPtr);
+
+/*
+** ===================================================================
+**     Method      :  I2CFreedom_CheckBus (component I2C_LDD)
+*/
+/*!
+**     @brief
+**         This method returns the status of the bus. If the START
+**         condition has been detected, the method returns LDD_I2C_BUSY.
+**         If the STOP condition has been detected, the method returns
+**         LDD_I2C_IDLE.
+**     @param
+**         DeviceDataPtr   - Device data structure
+**                           pointer returned by <Init> method.
+**     @param
+**         BusStatePtr     - Pointer to a variable,
+**                           where value of status is stored.
+**     @return
+**                         - Error code, possible codes:
+**                           ERR_OK - OK
+**                           ERR_DISABLED -  Device is disabled
+**                           ERR_SPEED - This device does not work in
+**                           the active clock configuration
+*/
+/* ===================================================================*/
+LDD_TError I2CFreedom_CheckBus(LDD_TDeviceData *DeviceDataPtr, LDD_I2C_TBusState *BusStatePtr);
+
+/*
+** ===================================================================
+**     Method      :  I2CFreedom_GetStats (component I2C_LDD)
+*/
+/*!
+**     @brief
+**         Returns receive/transmit statistics.
+**     @param
+**         DeviceDataPtr   - Device data structure
+**                           pointer returned by <Init> method.
+**     @return
+**                         - Device receive/transmit statistics since the
+**                           device initialization or since the
+**                           statistical information has been cleared.
+*/
+/* ===================================================================*/
+LDD_I2C_TStats I2CFreedom_GetStats(LDD_TDeviceData *DeviceDataPtr);
 
 /*
 ** ===================================================================
