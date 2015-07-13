@@ -82,6 +82,7 @@ void MMA8451_Freedom_ReadData(LDD_TDeviceData *DeviceDataPtr, struct AccelSensor
 // sensor data structures and state vectors
 struct AccelSensor thisAccel;					// this accelerometer
 
+volatile bool UART_Flg = TRUE;
 
 /*lint -save  -e970 Disable MISRA rule (6.3) checking. */
 int main(void)
@@ -93,18 +94,19 @@ int main(void)
   PE_low_level_init();
   /*** End of Processor Expert internal initialization.                    ***/
   MMA8451_Freedom_Init_50Hz(I2CFreedom_DeviceData, &thisAccel);
-
   /* Write your code here */
   //MMA8451_Freedom_Init_50Hz(I2CFreedom_DeviceData, &thisAccel);
   /* For example: for(;;) { } */
   for(;;){
-
+	  if(UART_Flg){
+	  		 UART_Flg = FALSE;
+	  		 UART_SendBlock(UART_DeviceData,(byte *)'1', 1);
 	  MMA8451_Freedom_ReadData(I2CFreedom_DeviceData, &thisAccel);
 	  	// scale the HAL-aligned accelerometer measurements
 	  	thisAccel.fGp[X] = (float) thisAccel.iGp[X] * thisAccel.fgPerCount;
 	  	thisAccel.fGp[Y] = (float) thisAccel.iGp[Y] * thisAccel.fgPerCount;
 	  	thisAccel.fGp[Z] = (float) thisAccel.iGp[Z] * thisAccel.fgPerCount;
-
+	  }
   }
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/

@@ -19,16 +19,16 @@
         <Line>PE_Const</Line>
         <Line>IO_Map</Line>
       </GenSharedModules>
-      <ShrdHeaderAge0>1189629422</ShrdHeaderAge0>
+      <ShrdHeaderAge0>1189708093</ShrdHeaderAge0>
       <ShrdCodeAge0>-1</ShrdCodeAge0>
       <ShrdAsemblAge0>-1</ShrdAsemblAge0>
-      <ShrdHeaderAge1>1189628922</ShrdHeaderAge1>
+      <ShrdHeaderAge1>1189702551</ShrdHeaderAge1>
       <ShrdCodeAge1>-1</ShrdCodeAge1>
       <ShrdAsemblAge1>-1</ShrdAsemblAge1>
-      <ShrdHeaderAge2>1189628922</ShrdHeaderAge2>
+      <ShrdHeaderAge2>1189702551</ShrdHeaderAge2>
       <ShrdCodeAge2>-1</ShrdCodeAge2>
       <ShrdAsemblAge2>-1</ShrdAsemblAge2>
-      <ShrdHeaderAge3>1189628922</ShrdHeaderAge3>
+      <ShrdHeaderAge3>1189702551</ShrdHeaderAge3>
       <ShrdCodeAge3>-1</ShrdCodeAge3>
       <ShrdAsemblAge3>-1</ShrdAsemblAge3>
       <GenExtraFiles lines_count="11">
@@ -46,10 +46,10 @@
       </GenExtraFiles>
       <GenExtraFileSrcDir9>lib\Kinetis\startup\</GenExtraFileSrcDir9>
       <GenExtraFileSrcDir5>Repositories\lib\doxygen\</GenExtraFileSrcDir5>
-      <XtraAge6>1189629422</XtraAge6>
-      <XtraAge7>1189629422</XtraAge7>
-      <XtraAge9>1189628922</XtraAge9>
-      <XtraAge10>1189629422</XtraAge10>
+      <XtraAge6>1189708092</XtraAge6>
+      <XtraAge7>1189708092</XtraAge7>
+      <XtraAge9>1189702551</XtraAge9>
+      <XtraAge10>1189708096</XtraAge10>
       <GenExtraFileType10>4</GenExtraFileType10>
       <GenExtraFileType9>5</GenExtraFileType9>
       <GenExtraFileType8>4</GenExtraFileType8>
@@ -342,7 +342,7 @@
     </GenFiles>
     <SignalListFile>Documentation\SENS ver1_SIGNALS.txt</SignalListFile>
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>14</ProjectModificationStamp>
+    <ProjectModificationStamp>15</ProjectModificationStamp>
   </Options>
   <CpuID_1>
     <Generated>true</Generated>
@@ -350,8 +350,8 @@
     <GenComponentVersion>01.003</GenComponentVersion>
     <GenDriverVersion>01.04</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1189629422</HeaderAge>
-    <CodeAge>1189697541</CodeAge>
+    <HeaderAge>1189702551</HeaderAge>
+    <CodeAge>1189916185</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>11</GenNumMethods>
     <SetClockConfiguration>true</SetClockConfiguration>
@@ -430,8 +430,8 @@
     <GenComponentVersion>01.188</GenComponentVersion>
     <GenDriverVersion>01.12</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1189629422</HeaderAge>
-    <CodeAge>1189629422</CodeAge>
+    <HeaderAge>1189916185</HeaderAge>
+    <CodeAge>1189916185</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>36</GenNumMethods>
     <Init>true</Init>
@@ -498,36 +498,36 @@
       <MethodPos0>Init</MethodPos0>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>161</LineBeg>
-      <LineEnd>183</LineEnd>
+      <LineBeg>164</LineBeg>
+      <LineEnd>186</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos1>ReceiveBlock</MethodPos1>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>184</LineBeg>
-      <LineEnd>229</LineEnd>
+      <LineBeg>187</LineBeg>
+      <LineEnd>232</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos2>SendBlock</MethodPos2>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>230</LineBeg>
-      <LineEnd>271</LineEnd>
+      <LineBeg>233</LineBeg>
+      <LineEnd>274</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos3>Interrupt</MethodPos3>
       <MethodType>internal_method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>272</LineBeg>
-      <LineEnd>284</LineEnd>
+      <LineBeg>275</LineBeg>
+      <LineEnd>287</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos4>SetClockConfiguration</MethodPos4>
       <MethodType>internal_method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>285</LineBeg>
-      <LineEnd>297</LineEnd>
+      <LineBeg>288</LineBeg>
+      <LineEnd>300</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos5>HWEnDi</MethodPos5>
@@ -601,8 +601,8 @@
     <GenComponentVersion>01.016</GenComponentVersion>
     <GenDriverVersion>01.07</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1189697541</HeaderAge>
-    <CodeAge>1189697541</CodeAge>
+    <HeaderAge>1189708091</HeaderAge>
+    <CodeAge>1189708091</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>33</GenNumMethods>
     <Init>true</Init>

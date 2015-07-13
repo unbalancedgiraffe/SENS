@@ -33,9 +33,9 @@
 extern "C" {
 #endif 
 
-extern bool I2C_RCVD_FLAG;
-extern bool I2C_SENT_FLAG;
-
+extern volatile bool I2C_RCVD_FLAG;
+extern volatile bool I2C_SENT_FLAG;
+extern volatile bool UART_Flg;
 
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
@@ -149,7 +149,7 @@ void UART_OnBlockReceived(LDD_TUserData *UserDataPtr)
 void UART_OnBlockSent(LDD_TUserData *UserDataPtr)
 {
   /* Write your code here ... */
-	//return with no action
+	UART_Flg = TRUE;
 	return;
 }
 

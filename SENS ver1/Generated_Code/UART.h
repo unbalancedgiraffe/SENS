@@ -7,7 +7,7 @@
 **     Version     : Component 01.188, Driver 01.12, CPU db: 3.00.000
 **     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-07-08, 09:47, # CodeGen: 1
+**     Date/Time   : 2015-07-12, 21:48, # CodeGen: 18
 **     Abstract    :
 **         This component "Serial_LDD" implements an asynchronous serial
 **         communication. The component supports different settings of
@@ -46,7 +46,7 @@
 **            Flow control                                 : None
 **          Initialization                                 : 
 **            Enabled in init. code                        : yes
-**            Auto initialization                          : no
+**            Auto initialization                          : yes
 **            Event mask                                   : 
 **              OnBlockSent                                : Enabled
 **              OnBlockReceived                            : Enabled
@@ -130,6 +130,9 @@ extern "C" {
 /*! Peripheral base address of a device allocated by the component. This constant can be used directly in PDD macros. */
 #define UART_PRPH_BASE_ADDRESS  0x4006A000U
   
+/*! Device data structure pointer used when auto initialization property is enabled. This constant can be passed as a first parameter to all component's methods. */
+#define UART_DeviceData  ((LDD_TDeviceData *)PE_LDD_GetDeviceStructure(PE_LDD_COMPONENT_UART_ID))
+
 /* Methods configuration constants - generated for all enabled component's methods */
 #define UART_Init_METHOD_ENABLED       /*!< Init method of the component UART is enabled (generated) */
 #define UART_SendBlock_METHOD_ENABLED  /*!< SendBlock method of the component UART is enabled (generated) */

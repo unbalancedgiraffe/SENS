@@ -8,7 +8,7 @@
 **     Repository  : Kinetis
 **     Datasheet   : KL46P121M48SF4RM, Rev.2, Dec 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-07-09, 11:00, # CodeGen: 16
+**     Date/Time   : 2015-07-12, 21:48, # CodeGen: 18
 **     Abstract    :
 **
 **     Settings    :
@@ -1720,6 +1720,8 @@ void PE_low_level_init(void)
                 ));
   /* NVIC_IPR1: PRI_6=0 */
   NVIC_IPR1 &= (uint32_t)~(uint32_t)(NVIC_IP_PRI_6(0xFF));
+  /* ### Serial_LDD "UART" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
+  (void)UART_Init(NULL);
   /* ### I2C_LDD "I2CFreedom" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
   (void)I2CFreedom_Init(NULL);
   __EI();
